@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SkyNest Co-Living Spaces offers modern flexible accommodation in Singapore.">
+    <title>SkyNest | Modern Co-Living Singapore</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<header>
+    <a href="#home" class="logo">SkyNest<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation" aria-expanded="false">☰</button>
+
+    <nav id="navigation" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#packages">Packages</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#help">Help & Advice</a>
+        <a href="#contact" class="nav-contact">Contact Us</a>
+    </nav>
+</header>
+
+<main>
+
+<!-- HOME PAGE -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <span class="eyebrow">WELCOME TO SKY NEST SINGAPORE</span>
+
+        <h1>Find Your Space.<br>Discover Your Community.</h1>
+
+        <p>
+            Experience modern co-living with comfortable accommodation,
+            flexible stays and facilities designed around your lifestyle.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#packages" class="btn">Explore Accommodation</a>
+            <a href="#about" class="outline-btn">Discover SkyNest</a>
+        </div>
+
+        <div class="search-box">
+            <label for="packageSearch">Find your ideal stay</label>
+            <div class="search-row">
+                <input type="search" id="packageSearch"
+                    placeholder="Search Premium, Standard, Short-Term...">
+                <button type="button" id="searchButton">Search</button>
+            </div>
+            <p id="searchMessage" aria-live="polite"></p>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT US -->
+<section class="about section" id="about">
+    <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1100&q=85"
+            alt="Beautiful modern furnished apartment interior">
+    </div>
+
+    <div class="about-content">
+        <span class="eyebrow">ABOUT SKY NEST</span>
+        <h2>A Better Way to Live in Singapore</h2>
+
+        <p>
+            SkyNest Co-Living Spaces is a modern accommodation
+            company based in Singapore. We provide flexible
+            short-term and long-term stays for young professionals,
+            international students and digital nomads.
+        </p>
+
+        <p>
+            Our aim is to create comfortable living spaces where
+            residents can enjoy privacy, convenience and a welcoming
+            community.
+        </p>
+
+        <div class="about-features">
+            <div>✓ Fully furnished accommodation</div>
+            <div>✓ Flexible booking options</div>
+            <div>✓ Modern shared facilities</div>
+            <div>✓ Friendly community events</div>
+        </div>
+
+        <a href="#facilities" class="btn">Explore Our Facilities</a>
+    </div>
+</section>
+
+<!-- FACILITIES -->
+<section class="facilities section" id="facilities">
+    <div class="section-heading">
+        <span class="eyebrow">OUR FACILITIES</span>
+        <h2>Everything You Need, All in One Place</h2>
+        <p>Enjoy modern facilities designed to make your everyday life easier.</p>
+    </div>
+
+    <div class="facility-grid">
+
+        <article class="facility-card">
+            <div class="facility-icon">🛏️</div>
+            <h3>Private Rooms</h3>
+            <p>Fully furnished private rooms and studio apartments.</p>
+        </article>
+
+        <article class="facility-card">
+            <div class="facility-icon">💻</div>
+            <h3>Co-Working Spaces</h3>
+            <p>Comfortable workspaces for remote working and studying.</p>
+        </article>
+
+        <article class="facility-card">
+            <div class="facility-icon">📶</div>
+            <h3>High-Speed Wi-Fi</h3>
+            <p>Reliable internet access throughout the building.</p>
+        </article>
+
+        <article class="facility-card">
+            <div class="facility-icon">🍽️</div>
+            <h3>Communal Kitchens</h3>
+            <p>Modern shared kitchens and dining areas.</p>
+        </article>
+
+        <article class="facility-card">
+            <div class="facility-icon">🧺</div>
+            <h3>Laundry Rooms</h3>
+            <p>Convenient laundry facilities for all residents.</p>
+        </article>
+
+        <article class="facility-card">
+            <div class="facility-icon">🔐</div>
+            <h3>24/7 Security</h3>
+            <p>Key-card access and round-the-clock building security.</p>
+        </article>
+
+        <article class="facility-card">
+            <div class="facility-icon">🌿</div>
+            <h3>Rooftop Garden</h3>
+            <p>Relax in our outdoor garden and enjoy the surroundings.</p>
+        </article>
+
+        <article class="facility-card">
+            <div class="facility-icon">🏋️</div>
+            <h3>Gym & Yoga Studio</h3>
+            <p>Stay active and maintain a healthy lifestyle.</p>
+        </article>
+
+        <article class="facility-card">
+            <div class="facility-icon">🛋️</div>
+            <h3>Social Lounge</h3>
+            <p>A welcoming place to relax and connect with others.</p>
+        </article>
+
+        <article class="facility-card">
+            <div class="facility-icon">📚</div>
+            <h3>Study Pods</h3>
+            <p>Quiet spaces for studying and focused work.</p>
+        </article>
+
+        <article class="facility-card">
+            <div class="facility-icon">🎉</div>
+            <h3>Weekly Events</h3>
+            <p>Social activities and community events every week.</p>
+        </article>
+
+    </div>
+</section>
+
+<!-- PACKAGES -->
+<section class="packages section" id="packages">
+    <div class="section-heading">
+        <span class="eyebrow">ACCOMMODATION PACKAGES</span>
+        <h2>Choose Your Perfect Stay</h2>
+        <p>Discover flexible accommodation options to suit your lifestyle and budget.</p>
+    </div>
+
+    <div class="package-grid">
+
+        <article class="package-card featured" data-package="premium">
+            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85"
+                alt="Premium private studio apartment">
+
+            <div class="package-content">
+                <span class="package-label">EXTRA COMFORT</span>
+                <h3>Premium Stay</h3>
+                <p>Perfect for residents who want privacy and extra comfort.</p>
+
+                <ul>
+                    <li>Private studio apartment</li>
+                    <li>Weekly cleaning service</li>
+                    <li>Utilities included</li>
+                    <li>High-speed internet included</li>
+                    <li>Access to all facilities</li>
+                    <li>Monthly community events pass</li>
+                </ul>
+
+                <a href="#contact" class="btn">Enquire Now</a>
+            </div>
+        </article>
+
+        <article class="package-card" data-package="standard">
+            <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=900&q=85"
+                alt="Comfortable shared apartment">
+
+            <div class="package-content">
+                <span class="package-label">EVERYDAY LIVING</span>
+                <h3>Standard Stay</h3>
+                <p>A comfortable and practical shared-living experience.</p>
+
+                <ul>
+                    <li>Private bedroom in shared apartment</li>
+                    <li>Fortnightly cleaning</li>
+                    <li>Utilities included</li>
+                    <li>Co-working space access</li>
+                    <li>Shared kitchen and lounge</li>
+                </ul>
+
+                <a href="#contact" class="btn">Enquire Now</a>
+            </div>
+        </article>
+
+        <article class="package-card" data-package="short-term">
+            <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=900&q=85"
+                alt="Furnished short-term accommodation">
+
+            <div class="package-content">
+                <span class="package-label">FLEXIBLE STAYS</span>
+                <h3>Short-Term Stay</h3>
+                <p>Ideal for visitors and residents needing temporary housing.</p>
+
+                <ul>
+                    <li>Flexible booking for 1–4 weeks</li>
+                    <li>Furnished room</li>
+                    <li>Utilities included</li>
+                    <li>Limited shared facility access</li>
+                </ul>
+
+                <a href="#contact" class="btn">Enquire Now</a>
+            </div>
+        </article>
+
+        <article class="package-card" data-package="custom">
+            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85"
+                alt="Modern accessible residential interior">
+
+            <div class="package-content">
+                <span class="package-label">PERSONALISED OPTIONS</span>
+                <h3>Custom Packages</h3>
+                <p>Accommodation arranged around your individual needs.</p>
+
+                <ul>
+                    <li>Corporate bookings</li>
+                    <li>Long-term stays</li>
+                    <li>Accessibility requirements</li>
+                    <li>Personalised arrangements</li>
+                    <li>Contact our team to discuss</li>
+                </ul>
+
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery section" id="gallery">
+    <div class="section-heading">
+        <span class="eyebrow">OUR GALLERY</span>
+        <h2>Explore the SkyNest Lifestyle</h2>
+        <p>Discover the spaces where residents can live, work and relax.</p>
+    </div>
+
+    <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=85"
+            alt="Modern apartment interior">
+
+        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85"
+            alt="Modern co-working space">
+
+        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85"
+            alt="Luxury living room">
+
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85"
+            alt="Comfortable apartment">
+
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=85"
+            alt="Contemporary home interior">
+
+        <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=900&q=85"
+            alt="Stylish residential space">
+    </div>
+</section>
+
+<!-- HELP AND ADVICE -->
+<section class="help section" id="help">
+    <div class="section-heading">
+        <span class="eyebrow">HELP & ADVICE</span>
+        <h2>Need Help Choosing a Package?</h2>
+        <p>Here is some guidance to help you select the right accommodation.</p>
+    </div>
+
+    <div class="help-grid">
+        <article class="help-card">
+            <h3>Premium Stay</h3>
+            <p>Choose Premium if you prefer your own studio apartment, additional privacy and access to all facilities.</p>
+        </article>
+
+        <article class="help-card">
+            <h3>Standard Stay</h3>
+            <p>Choose Standard if you want a private bedroom with shared living spaces and co-working facilities.</p>
+        </article>
+
+        <article class="help-card">
+            <h3>Short-Term Stay</h3>
+            <p>Choose Short-Term if you are visiting Singapore or need accommodation for one to four weeks.</p>
+        </article>
+
+        <article class="help-card">
+            <h3>Custom Packages</h3>
+            <p>Contact us if you need corporate accommodation, a long-term arrangement or accessibility support.</p>
+        </article>
+    </div>
+
+    <div class="help-bottom">
+        <h3>Still Have Questions?</h3>
+        <p>Our team can help you understand the accommodation options.</p>
+        <a href="#contact" class="btn">Ask Our Team</a>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact section" id="contact">
+    <div class="section-heading">
+        <span class="eyebrow">CONTACT US</span>
+        <h2>Let's Find Your Perfect Space</h2>
+        <p>Send us your questions about accommodation, packages and accessibility.</p>
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+            <h2>Get in Touch With SkyNest</h2>
+
+            <p>Whether you are a student, professional or digital nomad, we are here to help.</p>
+
+            <div class="contact-detail">
+                <span>📍</span>
+                <div>
+                    <h3>Location</h3>
+                    <p>Singapore</p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <span>📧</span>
+                <div>
+                    <h3>Email</h3>
+                    <p>hello@skynest.example</p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <span>🏠</span>
+                <div>
+                    <h3>Accommodation Advice</h3>
+                    <p>Ask about our four available packages.</p>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required placeholder="Enter your full name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" required placeholder="Enter your email address">
+
+            <label for="packageChoice">Preferred Package</label>
+            <select id="packageChoice" required>
+                <option value="">Choose a package</option>
+                <option>Premium Stay</option>
+                <option>Standard Stay</option>
+                <option>Short-Term Stay</option>
+                <option>Custom Package</option>
+            </select>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" required placeholder="How can we help you?"></textarea>
+
+            <button type="submit" class="btn submit-btn">Send Enquiry</button>
+
+            <p id="formMessage" role="status" aria-live="polite"></p>
+        </form>
+
+    </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <a href="#home" class="logo">SkyNest<span>.</span></a>
+    <p>Your Space. Your Community. Your Next Chapter.</p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#packages">Packages</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <p>© 2026 SkyNest Co-Living Spaces. All Rights Reserved.</p>
+    <p>Singapore</p>
+</footer>
+
+</body>
+</html>
